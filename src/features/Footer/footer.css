@@ -1,0 +1,112 @@
+/* Flex Container */
+.footer {
+    background-color: #0e0d3f;
+    color: #fff;
+    padding: 20px;
+    justify-content: flex-start;
+    /* Align content to the left */
+    text-align: left;
+    /* Align text to the left */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Logo */
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Main Grid Container */
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px){
+    .main-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 450px){
+    .main-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px){
+    .main-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Columns */
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Find Us On */
+.find-us {
+    margin-top: 20px;
+}
+
+/* Copyright */
+.copyright {
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.find-us-on-container {
+    flex-basis: 100%;
+}
+
+/* Find Us On */
+.find-us-on {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+    /* Adjust the margin value as needed */
+}
+
+img {
+    width: 150px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
