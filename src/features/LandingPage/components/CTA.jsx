@@ -28,10 +28,11 @@ const Container = styled.div`
   gap: 3rem;
 
   img {
-    max-width: 60%;
+    max-width: 90%;
+    object-fit: contain;
 
     @media (max-width: 800px) {
-      max-width: 90%;
+      // max-width: 90%;
     }
   }
 `;
