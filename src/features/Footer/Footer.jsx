@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="top-section">
                 <div className="logo">
-                    <img src="/icons/InvestPe.png" alt="InvestPe Logo" />
+                    <img className='logoIcon' src="/icons/InvestPe.png" alt="InvestPe Logo" />
                 </div>
 
                 <div className="main-grid">
